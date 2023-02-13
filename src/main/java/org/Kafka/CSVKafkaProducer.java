@@ -41,7 +41,7 @@ public class CSVKafkaProducer {
             CSVKafkaProducer kafkaProducer = new CSVKafkaProducer();
             kafkaProducer.PublishMessages();
             System.out.println("Producing job completed");
-            return "Streaming is Started";
+            return "Streaming is Completed.";
         });
 
     }
